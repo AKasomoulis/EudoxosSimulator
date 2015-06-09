@@ -1,0 +1,161 @@
+#topline {
+	position: relative;
+	margin: 0 auto 0;
+	display: block;
+	width: 660px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#topline a {
+	color: #F8F7DF;
+	background-color: #313131;
+}
+
+#topline a:hover {
+	color: #8B785F;
+	background-color: #313131;
+}
+
+#slidepanel {
+	/* 	display:none; */
+	position: relative;
+	width: 660px;
+	left: 300px;
+	overflow: hidden;
+	color: #FFFFFF;
+	background: url("../images/tab_l.gif") bottom left no-repeat #313131;
+}
+
+/* ----------------------------------------------Content-------------------------------------*/
+#topline .topbox {
+	display: block;
+	float: left;
+	width: 270px;
+	margin: 0 30px 0 0;
+	padding: 15px;
+}
+
+#topline h1,#topline h2,#topline h3,#topline h4,#topline h5,#topline h6
+	{
+	font-size: 18px;
+	margin: 0 0 15px 0;
+	padding: 0 0 8px 0;
+	border-bottom: 1px dotted #E7E6E6;
+}
+
+#topline p {
+	margin: 0 0 15px 0;
+	padding: 0;
+	line-height: 1.6em;
+}
+
+#topline p.readmore {
+	display: block;
+	margin: 0;
+	text-align: right;
+	line-height: normal;
+	font-weight: bold;
+}
+
+#topline a.readmore2 {
+	display: block;
+	float: right;
+	position: relative;
+	bottom: 10px;
+	color: #059BD8;
+	font-size: 8px;
+}
+
+/* ----------------------------------------------Forms-------------------------------------*/
+#topline form,#topline fieldset,#topline legend {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#topline legend {
+	display: none;
+}
+
+#topline input,#topline textarea,#topline select {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#topline label {
+	display: block;
+	width: 270px;
+	margin: 0 0 12px 0;
+	padding: 0;
+}
+
+#topline label input {
+	display: block;
+	width: 262px;
+	margin: 5px 0;
+	padding: 3px;
+	color: #333333;
+	background-color: #F8F7DF;
+	border: 1px solid #CCCCCC;
+}
+
+#topline .topbox p input {
+	padding: 3px 10px;
+	color: #666666;
+	background-color: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+}
+
+#topline label input.checkbox {
+	display: inline;
+	width: auto;
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+
+/* ----------------------------------------------Tab Panel-------------------------------------*/
+#loginpanel {
+	display: block;
+	position: relative;
+	top: 0;
+}
+
+#loginpanel ul {
+	display: block;
+	float: right;
+	width: 210px;
+	height: 24px;
+	margin: 0;
+	padding: 6px 0 0 0;
+	text-align: center;
+	color: #CCCCCC;
+	background-color: #313131;
+}
+
+#loginpanel li {
+	display: block;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+#loginpanel li.left {
+	float: left;
+	text-align: right;
+	padding-left: 10px;
+	background: url("../images/tab_l.gif") no-repeat bottom left;
+}
+
+#loginpanel li.right {
+	float: right;
+	text-align: left;
+	padding-right: 10px;
+	background: url("../images/tab_r.gif") no-repeat bottom right;
+}
+
+#loginpanel a {
+	display: block;
+	width: 100px;
+}

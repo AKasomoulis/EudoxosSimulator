@@ -1,0 +1,115 @@
+
+#topnav{			/* genikes ruthmiseis tou menu bar*/
+	display:block;
+	float:left;
+	width:700px;
+	margin:0px 0 0 0;
+	padding:0;
+	list-style:none;
+	}
+
+#topnav ul, #topnav li{
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{	/* gia tis katigories tou menu bar - xrwma,diastaseis,ktl.. */
+	display:block;
+	margin:0 12px 0 0; /* kena */
+	padding:0;
+	font-size:14px; /* megethos sumboloseiras */
+	color:#059BD8;
+	background-color:#F6F6F6;
+	}
+
+#topnav ul ul li a:link, #topnav ul ul li a:visited{
+	border:none;
+	}
+
+#topnav li.last a{
+	margin-right:0;
+	}
+
+#topnav li a:hover, #topnav ul li.active a{  /* xrwma otan exeis to pontiki apo panw */
+	color:#666666;
+	background-color:#F6F6F6;
+	}
+	
+#topnav li li a:link, #topnav li li a:visited{  /* gia to dropdown parathuro */
+	width:150px;
+	float:none;
+	margin:0;
+	padding:7px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#059BD8;	/* gia ta grammata */
+	background-color:#F6F6F6;
+	}
+	
+#topnav li li a:hover{
+	color:#FFFFFF;
+	background-color:#059BD8;
+	}
+
+#topnav li ul{		/* periexomeno dropdown box */
+	z-index:9999;
+	position:absolute;
+	left:-999em;
+	height:auto;
+	width:170px;
+	border-left:1px solid #059BD8;
+	border-bottom:1px solid #059BD8;
+	}
+
+#topnav li ul a{width:140px;}
+
+#topnav li ul ul{margin:-32px 0 0 0;}
+
+#topnav li:hover ul ul{left:-999em;}
+
+#topnav li:hover ul, #topnav li li:hover ul{left:auto;}
+
+#topnav li:hover{position:static;}
+
+#topnav li.last a{margin-right:0;}
+
+/* ----------------------------------------------Navigation Stilwn-------------------------------------*/
+
+.column .social{	/* gia ta icons twn social */
+	background-color:#E0E0E0;
+	border:1px dashed #5E5945;
+	list-style:none;
+	padding-left:10px;
+	float:left; 
+	margin-top:10px;
+	}
+
+.column .right2{
+	float: right;
+	 margin: 15px 0px 10px 0px; 
+	 padding: 15px;
+	 width: 200px;
+   	 border: 1px dashed #5E5945;
+	}
+
+.column .right3{
+	float: right;
+	 margin: 15px 0px 10px 0px; 
+	 padding: 15px;
+	 width: 200px;
+   	 border: 1px dashed #5E5945;
+	}
+
+
+.column .social li{
+	float:left;
+	margin-right:15px; 
+	
+	margin:10 0 11px 0;
+	padding:5 0 21px 0;
+	/*border-bottom:1px dotted #C7C5C8;*/
+	overflow:hidden;
+	}
+	

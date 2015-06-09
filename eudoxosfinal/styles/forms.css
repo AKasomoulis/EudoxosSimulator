@@ -1,0 +1,443 @@
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Georgia, "Times New Roman", Times, serif;}
+
+/* ----------------------------------------------Search Bar-------------------------------------*/
+
+#topbar input{			/* Gia to textfield tou search */
+	display:block;
+	float:left;
+	width:140px;
+	margin:0 5px 0 0;
+	padding:5px;
+	color:#B6B6B6;
+	background-color:#525252;
+	border:1px solid #343434;
+	font-size:12px;
+	}
+
+#topbar input#go{		/* Gia to search button */
+	width:68px;
+	height:26px;
+	margin:0;
+	padding:4px 0;
+	
+	color:#FFFFFF;
+	background-color:#059BD8;
+	border-color:#396B86;
+	cursor:pointer;
+	font-weight:bold;
+	}
+
+/* ----------------------------------------------Forms in Content Area-------------------------------------*/
+
+/*-------------Sign Up form-----------------*/
+.content .mainbar {
+	margin-left:20px;
+	padding:0 0 0 20px;
+	float:left;
+	width:450px;
+	border-bottom: 2px dashed #059BD8;
+ 	border-right: 2px dashed #059BD8;
+}
+.content .mainbar h2 {
+	margin-bottom:0;
+	padding-left:38px;
+	padding-bottom:0;
+	font-size:25px;
+	line-height:1.2em;
+	color:#3f3f3f;
+}
+.content .mainbar div.img {
+	padding:0 0 12px;
+	float:left;
+}
+.content .mainbar img {
+}
+.content .mainbar img.fl {
+	margin:0;
+	padding:0;
+	background:#fff;
+	border:none;
+}
+
+.article ol {
+	list-style:none;
+}
+.article ol li {
+	display:block;
+	clear:both;
+}
+.article ol li label {
+	display:block;
+	margin:0;
+	padding:16px 0 0 0;
+}
+.article ol li input.text {
+	width:300px;
+	border:1px solid #c0c0c0;
+	margin:0;
+	padding:5px 2px;
+	height:16px;
+	background-color:#fff;
+}
+.article ol li textarea {
+	width:480px;
+	border:1px solid #c0c0c0;
+	margin:0;
+	padding:2px;
+	background-color:#fff;
+}
+.article ol li .send {
+	margin:16px 0 0 0;
+}
+
+.article ol li select {
+	width: 307px;
+	height: 30px;
+	padding:5px;
+	font-size:13px;
+	font-color: #c0c0c0;
+	border:1px solid #c0c0c0;
+}
+
+
+/*-------------View Profile form-----------------*/
+
+.content .mainbar2 {
+	margin-left:20px;
+	padding:0 0 0 20px;
+	float:left;
+	width:550px;
+	border-bottom: 2px dashed #059BD8;
+ 	border-right: 2px dashed #059BD8;
+}
+.content .mainbar2 h2 {
+	margin-bottom:0;
+	padding-left:38px;
+	padding-bottom:0;
+	font-size:25px;
+	line-height:1.2em;
+	color:#3f3f3f;
+}
+.content .mainbar2 div.img {
+	padding:0 0 12px;
+	float:left;
+}
+.content .mainbar2 img {
+}
+.content .mainbar2 img.fl {
+	margin:0;
+	padding:0;
+	background:#fff;
+	border:none;
+}
+
+
+/*-------------Change Profil Form-----------------*/
+.mainbar3 {
+	margin-left:20px;
+	padding:0 0 0 20px;
+	width:550px;
+	height: 250px;
+	border-bottom: 2px dashed #059BD8;
+ 	border-right: 2px dashed #059BD8;
+}
+.mainbar3 h2 {
+	margin-bottom:0;
+	padding-left:38px;
+	padding-bottom:0;
+	font-size:25px;
+	line-height:1.2em;
+	color:#3f3f3f;
+}
+
+.mainbar3 a.readmore5{
+ display:block;
+ float:left;
+ position:relative;
+ 
+ color:#059BD8;
+ font-size:10px;
+ }
+
+
+/*-------------Change Episkopisi dilwsis Form-----------------*/
+.mainbar4 {
+	margin-left:20px;
+	padding: 20px;
+	width:550px;
+	height: 250px;
+	border-bottom: 2px dashed #059BD8;
+ 	border-right: 2px dashed #059BD8;
+}
+.mainbar4 h2 {
+	margin-bottom:0;
+	padding-left:38px;
+	padding-bottom:0;
+	font-size:25px;
+	line-height:1.2em;
+	color:#3f3f3f;
+}
+
+
+
+/*-------------Change Episkopisi dilwsis Form-----------------*/
+.mainbar5 {
+	margin-left:20px;
+	padding: 20px;
+	width:300px;
+	height: 250px;
+}
+.mainbar5 h2 {
+	margin-bottom:0;
+	padding-left:38px;
+	padding-bottom:0;
+	font-size:25px;
+	line-height:1.2em;
+	color:#3f3f3f;
+}
+
+
+
+	/* --------------------------- Tabs -----------------------*/
+.tabs {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 1px #ddd; }
+.tabs li {
+    display: inline-block; margin-bottom: -1px; }
+.tabs li a {
+    display: block; 
+    text-decoration: none;
+    line-height: 3em;
+    color: #555; 
+    padding: 0 2em; 
+    margin: 0;
+    background: #f5f5f5;
+    font-size: 1.1em;}
+.tabs li a:hover{color: #000;}
+.tabs li.active a{
+	background: #fff;
+	position: relative;
+	border: 1px solid #DDD;
+	border-bottom-color: #FFF;
+	color: #111;
+	-moz-border-radius-topleft: 2px;
+	-webkit-border-top-left-radius: 2px;
+	border-top-left-radius: 2px;
+	-moz-border-radius-topright: 2px;
+	-webkit-border-top-right-radius: 2px;
+	border-top-right-radius: 2px; }
+
+.tab_container { margin-bottom: 1em; display: block; border-left: 1px solid #ddd; padding: 15px 15px 0;}
+.tab_container > article { display:none; }
+.tab_container > article:first-child { display: block; }
+
+	
+#advancedsearch form{
+	margin:0;
+	padding:0;
+	border:none;
+	line-height:normal;
+	}
+
+#advancedsearch label{
+	display:inline;
+	width:170px;
+	float:left;
+	margin:0 0 12px 0;
+	padding:0;
+	}
+
+#advancedsearch label.margin{
+	margin-left:10px;
+	}
+
+#advancedsearch label input, select, #advancedsearch label textarea{
+	display:block;
+	width:162px;
+	margin:5px 0;
+	padding:3px;
+	color:#000000;
+	background-color:#F7F7F7;
+	border:1px solid #CCCCCC;
+	}
+
+#advancedsearch label textarea{
+	display:block;
+	width:342px;
+	overflow:auto;
+	}
+
+#advancedsearch p{
+	display:block;
+	width:350px;
+	margin:0;
+	padding:0;
+	clear:both;
+	}
+
+#advancedsearch p input{
+	padding:5px 10px;
+	color:#666666;
+	background-color:#F7F7F7;
+	border:1px solid #CCCCCC;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* ######################################################################################### */
+/* Forma me tabs */
+.dilwseistabs {
+	list-style:none;
+	margin:0; 
+	padding:0;
+	width:800px;
+	margin:0 auto;
+	box-shadow: 0 0 5px #111;
+}
+
+.examino {
+	background: #575e63;
+	border-top:1px solid #878e98;
+	border-bottom:1px solid #33373d;
+	color: #fff;
+	text-shadow: 0 1px 1px #000;
+	letter-spacing: 0.09em;
+	box-sizing: border-box;
+	display:block;
+	padding:12px;
+	width:800px;
+}
+
+ul li input[type='checkbox'] {
+	display: none;
+}
+
+
+/* gia to plaisio me tin imerominia*/
+.date {
+	display:inline;
+	float:right;
+	background:#48515c;
+	border:1px solid #3c434c;
+	border-bottom:1px solid #707781;
+	padding:4px 6px;
+	font-size:10px;
+	border-radius: 12px;
+	box-shadow: inner 0 0 10px #111;
+	position:relative;
+}
+
+/* allagi xrwmatos tou label me to examino otan einai o kersorans panw tou*/
+.examino:hover {
+	background: #566f82;
+}
+
+/* otan einai tsekarismeno to checkbox diamorfwsi tou span me tin imerominia */
+ul li input[type='checkbox']:checked ~ .examino .date {
+	background: #2173a1; 
+}
+
+/* otan einai tsekarismeno to checkbox diamorfwsi tou label */
+ul li input[type='checkbox']:checked ~ .examino {
+	background: #059BD8;
+	border-top:1px solid #878e98;
+	border-bottom:1px solid #2799db;
+}
+
+/* otan einai tsekarismeno to checkbox diamorfwsi tou options*/
+ul li input[type='checkbox']:checked ~ .options {
+	height: auto;
+	display:block;
+	min-height:40px;
+	max-height:400px;
+}
+
+/* morfopoiisi link se forma istorikou dilwsewn */
+.dilwseisLi {
+	display:block;
+	padding:10px 12px;
+	color:#999;
+	text-decoration:none;
+	border-bottom:1px solid #ccc;
+}
+
+/* morfopoiisi div se forma istorikou dilwsewn */
+.dilwseisdiv {
+ display:block;
+ padding:10px 25px;
+ color:#999;
+ text-decoration:none;
+}
+
+/* xrwma link otan einai panw o kersoras */
+.dilwseisLi:hover {
+/* 	color:#44c6eb; */
+}
+
+/* gia na anoixei to periexomeno meta to click kai morfopoiisi*/
+.options {
+	height: 0;
+	display: block;
+	overflow: hidden;
+	background:#fff;
+	margin:0;
+	padding:0;
+	box-shadow: inner 0 2px 2px #b3b3b3;
+}
+
+.mathima {
+	background: #E8E8E8 ;
+	border-top:1px solid #878e98;
+	border-bottom:1px solid #33373d;
+	color: black;
+/* 	text-shadow: 0 1px 1px #000; */
+	font-weight:bold;
+	letter-spacing: 0.09em;
+	box-sizing: border-box;
+	display:block;
+	padding:12px;
+	width:800px;
+}
+
+/* allagi xrwmatos tou label me to examino otan einai o kersorans panw tou*/
+.mathima:hover {
+	background: #F0F0F0;
+}
+
+/* gia to plaisio me tin enimerwsi gia to an exei paralavei siggramma i oxi*/
+.paralavi {
+	display:inline;
+	float:right;
+	background:#D0D0D0;
+	border:1px solid #3c434c;
+	border-bottom:1px solid #707781;
+	padding:4px 6px;
+	font-size:10px;
+	border-radius: 12px;
+	box-shadow: inner 0 0 10px #111;
+	position:relative;
+}
+
+.radioButton {
+	background:white;
+	border-top:1px solid #878e98;
+	border-bottom:1px solid #33373d;
+	color: black;
+/* 	text-shadow: 0 1px 1px #000; */
+	font-weight:bold;
+	letter-spacing: 0.09em;
+	box-sizing: border-box;
+	display:block;
+	padding:12px;
+	width:800px;
+}	
